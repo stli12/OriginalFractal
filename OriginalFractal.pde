@@ -16,7 +16,7 @@ public void myFractal(double r, double dRadians, double w, double h, int m) {
     t = (t <= 70) ? t + 1 : t - 1;
     fill(110, 0, 255, t);
     strokeWeight(4);
-    ellipse(450 + (int)x, 450 + (int)y, (int)w, (int)h);
+    ellipse(500 + (int)x, 500 + (int)y, (int)w, (int)h);
   } else {
     noFill();
     double x = r * Math.cos(dRadians);
